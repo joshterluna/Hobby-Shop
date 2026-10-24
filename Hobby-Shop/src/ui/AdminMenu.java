@@ -20,7 +20,7 @@ public class AdminMenu {
 
         while (true) {
             System.out.print("\n% ");
-            command = input.nextLine().trim().toLowerCase();
+            command = sc.nextLine().trim().toLowerCase();
 
             switch (command) {
                 case "help":
@@ -70,7 +70,7 @@ public class AdminMenu {
 
                 case "exit":
                     System.out.println("Thank you for using Aetherion CLI!");
-                    input.close();
+                    sc.close();
                     return;
 
                 default:
@@ -79,4 +79,4 @@ public class AdminMenu {
         }
     }
 }
-S
+
