@@ -8,6 +8,6 @@ package hobbyshop;
  *
  * @author junry
  */
-public class FileManager {
+public class FileHelper {
     
 }
