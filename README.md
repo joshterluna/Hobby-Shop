@@ -10,7 +10,12 @@ Aetherion helps a hobby shop manage its inventory, sales, and customer collectio
 ├── .gitignore
 ├── README.md
 └── Hobby-Shop/                    
-    ├── build.xml, manifest.mf, nbproject/
+    ├── build.xml
+    ├── manifest.mf
+    ├── nbproject/
+    │   ├── genfiles.properties
+    |   │   ├── project.properties
+    |   │   └── project.xml
     ├── data/
     │   ├── users.txt
     │   ├── products.txt
@@ -18,7 +23,12 @@ Aetherion helps a hobby shop manage its inventory, sales, and customer collectio
     │   ├── collections.txt
     │   ├── wishlist.txt
     │   ├── deliveries.txt
-    │   └── art/                     
+    │   └── art/
+    │        ├── FIG001.txt
+    │        ├── FIG002.txt
+    │        ├── FIG003.txt
+    │        ├── FIG004.txt
+    │        ├── FIG005.txt        
     └── src/hobbyshop/               
         ├── HobbyShop.java          
         ├── FileHelper.java          
