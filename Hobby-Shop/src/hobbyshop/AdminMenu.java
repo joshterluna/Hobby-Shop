@@ -1,4 +1,4 @@
-    package hobbyshop;
+package hobbyshop;
 
 public class AdminMenu {
 
