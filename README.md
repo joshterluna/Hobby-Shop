@@ -5,4 +5,43 @@ A Java CLI-based management system for a hobby shop specializing in blind boxes 
 
 Aetherion helps a hobby shop manage its inventory, sales, and customer collections from the command line. Admins manage users and products, shop staff handle stock and walk-in sales, and customers can browse the catalog, buy items, and track their own collection. All data is saved in text files, so it persists between program runs.
 
-(a little note: Aetherion is based on mechafigures so that's why this is our pick, but its just a title nothing related to mechafigures, just figurines and blind box)
+```text
+└── hobby-shop/
+    ├── README.md
+    └── Hobby-Shop/
+        ├── build.xml
+        ├── manifest.mf
+        ├── run.bat
+        ├── run.sh
+        ├── data/
+        │   ├── README.txt
+        │   ├── collections.txt
+        │   ├── deliveries.txt
+        │   ├── products.txt
+        │   ├── transactions.txt
+        │   ├── users.txt
+        │   ├── wishlist.txt
+        │   └── art/
+        │       ├── FIG001.txt
+        │       ├── FIG002.txt
+        │       ├── FIG003.txt
+        │       ├── FIG004.txt
+        │       ├── FIG005.txt
+        │       └── FIG006.txt
+        ├── nbproject/
+        │   ├── genfiles.properties
+        │   ├── project.properties
+        │   └── project.xml
+        └── src/
+            └── hobbyshop/
+                ├── AdminMenu.java
+                ├── CollectionModule.java
+                ├── CustomerMenu.java
+                ├── DeliveryModule.java
+                ├── FileHelper.java
+                ├── HobbyShop.java
+                ├── ProductModule.java
+                ├── SalesModule.java
+                ├── StaffMenu.java
+                └── UserModule.java
+```
