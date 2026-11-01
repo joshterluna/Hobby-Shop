@@ -1,3 +1,6 @@
+run.bat:
+testing the system by running it directly through the computer terminal without using an IDE.
+
 All data files use one record per line, with fields separated by the pipe character (|).
 
 users.txt:
