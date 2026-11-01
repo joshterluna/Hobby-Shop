@@ -1,0 +1,6 @@
+FIG001|EVA Unit-01|Neon Genesis Evangelion|Bandai|Mecha Figure|1500.00|15
+FIG002|RX-78-2 Gundam|Mobile Suit Gundam|Bandai|Mecha Figure|1400.00|10
+FIG003|MS-06 Zaku II|Mobile Suit Gundam|Bandai|Mecha Figure|1350.00|11
+FIG004|Magatsu Mitake Narukami no Mikoto|Genshin Impact|miHoYo|Mecha Figure|1850.00|3
+FIG005|Paimon|Genshin Impact|miHoYo|Anime Figure|1650.00|8
+FIG006|Ruin Grader|Genshin Impact|miHoYo|Mecha Figure|750.00|5
