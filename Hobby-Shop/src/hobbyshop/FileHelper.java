@@ -23,7 +23,7 @@ public class FileHelper {
             }
         }
 
-        String[] otherFiles = {"data/transactions.txt", "data/collecttions.txt", "data/wishlist.txt", "data/deliveries.txt"};
+        String[] otherFiles = {"data/transactions.txt", "data/collections.txt", "data/wishlist.txt", "data/deliveries.txt"};
         for (int i = 0; i < otherFiles.length; i++) {
             File otherFile = new File(otherFiles[i]);
             if (!otherFile.exists()) {
