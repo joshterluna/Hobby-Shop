@@ -143,8 +143,6 @@ The `build/`, `dist/`, and `nbproject/private/` folders are created on your comp
 
 ## How It Works
 
-The code is intentionally written at a beginner level: static methods, arrays, loops, `Scanner`, `if` and `switch`, and `java.io` file handling. There are no objects, collections, or frameworks.
-
 ```
 HobbyShop  ->  role menu  ->  module (feature logic)  ->  FileHelper  ->  data/*.txt
 ```
@@ -171,7 +169,7 @@ HobbyShop  ->  role menu  ->  module (feature logic)  ->  FileHelper  ->  data/*
 
 ```
 users.txt          customer|-1772107372|CUSTOMER|Sample Customer
-products.txt       FIG001|Labubu - The Monsters|Exciting Macaron|Pop Mart|Blind Box|750.00|15
+products.txt       FIG001|EVA Unit-01|Neon Genesis Evangelion|Bandai|Mecha Figure|1500.00|10
 collections.txt    customer|FIG001|2|750.00|750.00|2026-10-29|New
 wishlist.txt       customer|FIG002
 deliveries.txt     DEL001|Pop Mart Distributor|2026-10-20|2026-10-30|Shipped
@@ -180,31 +178,6 @@ deliveries.txt     DEL001|Pop Mart Distributor|2026-10-20|2026-10-30|Shipped
 Dates use `YYYY-MM-DD`. If `products.txt` contains a line that cannot be read, the program reports it and blocks saving until the line is fixed, so the line is never erased by accident.
 
 </details>
-
-## Screenshots
-
-<!--
-Save screenshots in a docs/screenshots/ folder at the repository root, then uncomment:
-
-| Welcome menu | Customer purchase |
-|---|---|
-| ![Welcome menu](docs/screenshots/welcome.png) | ![Receipt](docs/screenshots/receipt.png) |
--->
-
-Screenshots of the running program will be added here.
-
-## Limitations
-
-This is a classroom CLI project, not a real payment or inventory platform.
-
-- The password hash (`String.hashCode()`) is not salted and is not secure for real accounts. Typed passwords are visible on screen.
-- Dates are typed in manually, and the system does not select the current date.
-- Estimated values are entered by the customer and are not verified market prices.
-- Most files are limited to 500 records.
-- Each collection entry stores one combined quantity, one average purchase price, and one estimate per product, not a record for every individual item.
-- Deleting a customer also deletes their collection and wishlist, but keeps their sales records.
-- The delivery tracker records status only. It does not provide courier tracking and does not change stock automatically.
-- The ASCII gallery contains a small set of sample drawings (FIG001 to FIG006) and does not show photographs.
 
 ## Team
 
