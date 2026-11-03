@@ -210,16 +210,10 @@ This is a classroom CLI project, not a real payment or inventory platform.
 
 Academic project for IT001.23, College of Computer Studies, University of the Immaculate Conception, Davao City.
 
-| Member | Responsibility |
-|---|---|
-| Bustamante, Dean Andrew O. | |
-| Guma, Kent Felix G. | |
-| Halik, Iederf Sean B. | |
-| Lampano, Mark Allen T. | |
+| Member |
+|---|
+| Bustamante, Dean Andrew O. |
+| Guma, Kent Felix G. | 
+| Halik, Iederf Sean B. | 
+| Lampano, Mark Allen T. | 
 
-## Contributing
-
-1. Create a branch for your task, for example `feature-deliveries`.
-2. Make small commits with clear messages.
-3. Open a pull request into `main` and have a teammate review it before merging.
-4. Never commit `build/`, `dist/`, or `nbproject/private/`. The `.gitignore` already excludes them.
