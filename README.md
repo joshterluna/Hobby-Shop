@@ -21,10 +21,8 @@ Aetherion helps a hobby shop run its day-to-day work from the command line. Admi
 - [Project Structure](#project-structure)
 - [How It Works](#how-it-works)
 - [Data Files](#data-files)
-- [Screenshots](#screenshots)
-- [Limitations](#limitations)
 - [Team](#team)
-- [Contributing](#contributing)
+
 
 ## Features
 
